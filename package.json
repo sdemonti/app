@@ -7,13 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-<<<<<<< Updated upstream
-  "license": "ISC"
-=======
   "license": "ISC",
   "dependencies": {
     "express": "^4.13.3",
-    "node-schedule": "^0.2.9"
+    "node-schedule": "^0.2.9",
+    "socket.io": "^1.3.7"
   }
->>>>>>> Stashed changes
 }
+  
