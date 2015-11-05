@@ -1,0 +1,11 @@
+waterwarn:
+  build: .
+  ports:
+   - "8787:3000"
+  volumes:
+   - .:/src
+  links:
+   - redis
+
+redis:
+  image: seb/redis
