@@ -1,0 +1,8 @@
+{
+    "extends": "./.jshintrc_base",
+    "predef"        : [
+        "_",
+        "when",
+        "assert",
+        "async"]
+}
